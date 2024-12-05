@@ -83,7 +83,7 @@ int main(){
 		    }
 				 break;
 			case 7:  
-			printf("Mang truoc khi duoc sap xep la :\n ");
+			printf("Mang truoc khi duoc sap xep la : ");
 			for (int i=0;i<n;i++){
 				printf("%d", arr[i]);
 			}
@@ -96,9 +96,9 @@ int main(){
 					}
 				}
 			}
-			printf("Mang sau khi duoc sap xep la : ");
+			printf("\nMang sau khi duoc sap xep la : ");
 			for (int i=0;i<n;i++){
-				printf("%d", arr[i+1]);
+				printf("%d", arr[i]);
 			}
 				break;
 			case 8:  
@@ -162,7 +162,7 @@ int main(){
 			printf("moi ban nhap lai du lieu ");
 		  }
 		} while (choice != 11);
-		return 0;
+
 }
 
 
